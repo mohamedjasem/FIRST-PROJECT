@@ -37,8 +37,8 @@ a{
   text-decoration: none;
   color: rgb(16, 54, 245);
 }
-a:hover{
-  background-color: coral;
+header a:hover{
+  color: corgb(255, 80, 80)
 }
 
 .container{
