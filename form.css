@@ -1,0 +1,344 @@
+body {
+   
+    background-size:100%;
+    background-image: url(singbackground.png);
+
+
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    color: white;
+animation: header 2s ease-in-out;
+}
+@keyframes header {
+    0%{
+        transform:translateY(-100%)
+   }}
+
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600;
+    color: rgb(16, 54, 245);
+}
+nav :hover{
+    color: rgb(250, 80, 105);
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: rgb(16, 54, 245);
+}
+a:hover{
+    background-color: coral;
+}
+
+.form {
+    width: 517px;
+    height: 573px;
+    margin: -68px 39px;
+    background-color: #ffffff;
+    border: 2px solid rgba(218, 14, 126, 0.4);
+    background-size: cover;
+    border-width: 10px;
+    border-style: outset;
+    border-radius: 18px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 108px;
+    left: 363px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 6px;
+
+
+
+}
+input:focus{
+   background-color: lightpink;
+}
+
+h1 {
+    color:rgb(0, 0, 0,.5);
+box-shadow: 2px;
+    
+    font-family: system-ui;
+}
+
+
+
+/* ..Input box style code.............. */
+input[type=text] {
+    background: white;
+    border-color: rgb(0, 0, 0,.2);
+    border-radius: 4px;
+}
+input[type=date] {
+    background: white;
+    border-color: rgb(0, 0, 0,.2);
+    border-radius: 4px;
+    
+    
+ }
+
+input[type=password] {
+     background: white;
+    border-color: rgb(0, 0, 0,.2);
+    border-radius: 4px;
+    box-shadow: 8px;
+}
+
+
+input[type=number] {
+    background: white;
+   border-color: rgb(0, 0, 0,.2);
+   border-radius: 4px;
+}
+
+
+input[type=radio] {
+    background: white;
+   border-color: rgb(0, 0, 0,.2);
+   border-radius: 4px;
+}
+input[type=checkbox] {
+    background: white;
+   border-color: rgb(0, 0, 0,.2);
+   border-radius: 4px;
+}
+input[type=email] {
+     background: white;
+    border-color: rgb(0, 0, 0,.2);
+    border-radius: 4px;
+}
+
+select {
+     background: white;
+    border-color: rgb(0, 0, 0,.2);
+    border-radius: 4px;
+}
+
+/* Input submit style................. */
+input[type=submit] {
+
+    background: #006efbb3;
+    color: white;
+
+    border: 0 none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+
+    cursor: pointer;
+
+    padding: 5px 15px;
+    position: absolute;
+    left: 378px;
+    top: 549px;
+}
+
+
+
+/* label alignment... */
+.name{
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px
+}
+.fnamel {
+
+    color:rgb(0, 0, 0,.0.8);
+
+    
+    font-family: system-ui;
+   
+
+}
+#fname{
+    position: relative;
+    left: -119px;
+    right: 4px;
+    bottom: 0px;
+    top: 25px;
+}
+.lnamel {
+    color:rgb(0, 0, 0,.0.8);
+
+    
+    font-family: system-ui;
+    position: relative;
+    left: -64px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px
+   
+
+
+}
+
+#lname{
+    position: relative;
+    left: 240px;
+    right: 0px;
+    bottom: 0px;
+    top: 4px;
+}
+
+.datel{
+   
+    color:rgb(0, 0, 0,.0.8);
+    font-family: system-ui;
+    
+    position: relative;
+    left: 242px;
+    right: 0px;
+    bottom: 0px;
+    top:76px;
+}
+#dateid{
+    
+    position: relative;
+    left: -62px;
+    right: 0px;
+    bottom: 0px;
+    top:20px;
+   
+}
+
+.emaill {
+    color:rgb(0, 0, 0,.0.8);
+    
+    font-family: system-ui;
+    position: relative;
+    left: 2px;
+    right: 0px;
+    bottom: 0px;
+    top: -197px;
+
+}
+.phone{
+    color:rgb(0, 0, 0,.0.8);
+    
+    font-family: system-ui;
+    position: relative;
+    left: 240px;
+    right: 0px;
+    bottom: 0px;
+    top: -242px;
+}
+
+
+
+
+
+
+.gender{
+    color:rgb(0, 0, 0,.0.8);
+
+    
+    font-family: system-ui;
+    position: relative;
+    left: 244px;
+    right: 0px;
+    bottom: 0px;
+    top: 120px;
+
+}
+.course{  
+    display: inline;
+    color:rgb(0, 0, 0,.0.8);
+    font-family: system-ui;
+    position: relative;
+    left: -206px;
+    right: 0px;
+    bottom: 0px;
+    top: -109px;
+
+} 
+#courseid{
+    position: relative;
+    left: 210px;
+    right: 0px;
+    bottom: 0px;
+    top: -3px;
+
+}
+
+
+.select{
+    display:inline;
+    color:rgb(0, 0, 0,.0.8);
+
+    
+    font-family: system-ui;
+    position: relative;
+    left: 4px;
+    right: 0px;
+    bottom: 0px;
+    top: -91px;
+
+}
+.selectid{
+    /* display:inline; */
+
+    color:rgb(0, 0, 0,.0.8);
+
+    
+    font-family: system-ui;
+
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px; 
+}
+.Education{
+    display:inline;
+    color:rgb(0, 0, 0,.0.8);
+    font-family: system-ui;
+    
+    
+
+    position: relative;
+    left: 4px;
+    right: 0px;
+    bottom: 0px;
+    top: -156px;
+
+}
+.Facilities{
+    color:rgb(0, 0, 0,.0.8);
+    font-family: system-ui;
+    position: relative;
+    left: 249px;
+    right: 0px;
+    bottom: 0px;
+    top: 128px;
+}
+.passwordl{
+    color:rgb(0, 0, 0,.0.8);
+    
+    font-family: system-ui;
+    position: relative;
+    left: 6px;
+    right: 0px;
+    bottom: 0px;
+    top: -58px;
+}
+.cpassword{
+    color:rgb(0, 0, 0,.0.8);
+    
+    font-family: system-ui;
+    position: relative;
+    left: 252px;
+    right: 0px;
+    bottom: 0px;
+    top: -104px;;
+}

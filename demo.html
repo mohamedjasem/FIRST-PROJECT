@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body >
+
+    <div class="a1">
+        <header>
+            <nav>
+                <li> <a href="index.html">Home</a> </li>
+               
+                <li><a href="about.html">About</a></li>
+              
+                
+                <li><a href="contact.html">Contact</a></li>
+            </nav>
+        </header>
+    </div>
+
+    <h1> Minor Project Using Javascript</h1>
+        <div class="container">
+            <div class="sub-container">
+                <div><h2> Employee Form </h2></div>
+               
+                        <form>
+                            <div class="inp1">
+                                <label for="inp1">Enter ID
+                                <input type="text" id="inp1">
+                                </label>
+                                </div>
+
+                                <div class="inp2">
+                                <label for="inp2">Enter Name
+                                <input type="text" id="inp2">
+                                </label>
+                                </div>
+
+                                <div class="inp6">
+                                    <label for="inp6">Enter Email
+                                    <input type="email" id="inp6">
+                                    </label>
+                                    </div>
+
+                                <div class="inp3">
+                                <label for="inp3">Enter Salary
+                                <input type="text" id="inp3">
+                                </label>
+                                </div>
+
+                                <div class="inp4">
+                                <label for="inp1">Enter City
+                                <input type="text" id="inp4">
+                                </label>
+                                </div>
+
+                                <div class="inp5">
+                                    <label>Gender<br>
+                                      
+                                        <input type="radio" id="genderid" name="gender" value="Male" >
+                                        <label for="gender">Male</label>
+
+                                        
+                                        <input type="radio" id="genderid" name="gender" value="Female">
+                                        <label for="gender">Female</label>
+                                    </label>
+                                </div>
+
+                                <div class="date">
+                                    <label for="dateid">DOB
+                                    <input type="date" id="dateid" value="" name="date"></label>
+                                </div>
+                        </form>
+
+                         <div class="btn"> <button id="btn">Submit</button></div>
+                  
+            </div>
+
+
+            
+            <div class="sub-container1">
+                <h2> Employee Data </h2>
+                <table  class="main-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Gender</th>
+                            <th>DOB</th>
+                            <th>Email</th>
+                            <th>Salary</th>
+                            <th>City</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody id="table-body"></tbody>
+                </table>
+            </div>
+        </div>
+</body>
+<script src="new.js"></script>
+</html>

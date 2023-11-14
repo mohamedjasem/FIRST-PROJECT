@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+   background-image: url(09.jpg);
+   
+}
+header{
+    background-color: #97c5bbe0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    color: rgb(1 44 253);
+animation: header 2s ease-in-out;
+}
+
+@keyframes header {
+    0%{
+        transform:translateY(-100%)
+   }}
+
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600;
+}
+nav :hover{
+    background-color: rgb(250, 80, 199);
+}
+a{
+  text-decoration: none;
+  color: rgb(16, 54, 245);
+}
+a:hover{
+  background-color: coral;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:auto  auto;
+    align-content: center;
+}
+.container #img11{
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    margin-top: 4%;
+    margin-left: 40%;
+  
+    animation: header1 2s ease-in-out;
+  }
+  @keyframes header1 {
+      0%{
+          transform:translateX(-100%)
+     }}
+
+.container #img11:hover {
+    width: 380px;
+    height: 280px;
+}
+ .container #img12{
+border: 2px solid blueviolet;
+border-radius: 8px;
+margin-top: 4%;
+margin-left: 3%;
+
+animation: header2 2s ease-in-out;
+}
+@keyframes header2 {
+    0%{
+      transform:translateX(100%)
+   }}
+
+.container #img12:hover {
+width: 380px;
+height: 280px;
+}
+.container #img13{
+border: 2px solid blueviolet;
+border-radius: 8px;
+margin-top: 4%;
+margin-left: 3%;
+position: relative;
+left: 0px;
+
+
+animation: header3 2s ease-in-out;
+}
+@keyframes header3 {
+    0%{
+        transform:translateY(100%)
+   }}
+
+
+.container #img13:hover {
+    width: 380px;
+    height: 280px;
+}
+.container #img14{
+  border: 2px solid blueviolet;
+  border-radius: 8px;
+  margin-top: 4%;
+  margin-left: 3%;
+  position: relative;
+  left: 0px;
+  
+  
+  animation: header3 2s ease-in-out;
+  }
+  @keyframes header3 {
+      0%{
+          transform:translateY(100%)
+     }}
+  
+  
+  .container #img14:hover {
+      width: 380px;
+      height: 280px;
+  }
+.container #h1{
+    color: #f1f8f5;
+    text-align: center;
+    position: relative;
+    left: 317px;
+    top: 10px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+
+  }
+  
+  @keyframes example {
+    0%   {color: green;}
+    25%  {color:blue;}
+    50%  {color:pink}
+    100% {color: red;}
+  }
+  .container #h2{
+    color: #f1f8f5;
+    text-align: center;
+    position: relative;
+    left: 317px;
+    top: 0px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+
+  }
+  
+  @keyframes example {
+    0%   {color: green;}
+    25%  {color:blue;}
+    50%  {color:pink}
+    100% {color: red;}
+  }
+  .container .h3{
+    position: relative;
+    left: 230px;
+  }
+  .container #h3{
+    color: #f1f8f5;
+    text-align: center;
+    position: relative;
+    left: -76px;
+    top: 0px;
+    animation-name: example1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+
+  }
+  
+  @keyframes example1 {
+    0%  {color:rgb(203, 255, 192)}
+    25%  {color: rgb(255, 0, 179)}
+    50%  {color:pink}
+    100% {color:white}
+  }
+  .container .h4{
+    position: relative;
+    left:  0px;
+  }
+  .container #h4{
+    color: #f1f8f5;
+    text-align: center;
+    position: relative;
+    left:-80px;
+    top: 0px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+
+  }
+  
+  @keyframes example {
+    0%   {color: green;}
+    25%  {color:blue;}
+    50%  {color:pink}
+    100% {color: red;}
+  }
+span{
+    color: yellow;
+    animation-name: span;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+
+  }
+  
+  @keyframes span {
+    0%   {color:green;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: red}
+  }

@@ -1,0 +1,158 @@
+body{
+  
+    background-image: linear-gradient(
+        to right,rgb(254, 163, 178),
+        rgb(231, 100, 205),rgb(149, 111, 192) );
+        
+       
+    overflow-x: hidden;
+
+    font-family: Georgia;
+    
+}
+header{
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    color: rgb(1 44 253);
+animation: header 2s ease-in-out;
+}
+@keyframes header {
+    0%{
+        transform:translateY(-100%)
+   }}
+
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600;
+}
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -29px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+
+  }
+  
+  @keyframes example {
+    0%  {color: rgb(255, 85, 0);}
+    25%  {color:rgb(221, 255, 0);}
+    50%  {color:rgb(251, 249, 249)}
+    100%{color:rgb(15, 15, 15)192, 255, 199}
+  }
+h2{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 360px 390px;
+    column-gap: 5px;
+}
+.sub-container{
+    
+    width: 842px;
+    margin: 0px 18px;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: rgba(248, 244, 240, 0.4);
+    color: rgb(11, 11, 11);
+    padding: 10px;
+    position: relative;
+    left: 146px;
+    top: -33px;
+}
+.sub-container1{
+    width: auto;
+    margin: -119px -301px;
+    position: relative;
+    top: 366px;
+    left:30px;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: rgba(248, 244, 240, 0.4);
+    color: rgb(11, 11, 11);
+    padding: 10px;
+}
+.main-table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+.main-table th, .main-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+} 
+a{
+    text-decoration: none;
+    color: rgb(1 44 253);
+}
+.inp1{
+    margin: 0px 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#inp1{
+    position: relative;
+    top: 0px;
+    left: 24px;
+}
+.inp2{
+    margin: 0px 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.inp3{
+    margin: 0px 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#inp3{
+    position: relative;
+    top: 0px;
+    left: -2px;
+}
+.inp6{
+    margin: 0px 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#inp4{
+    position: relative;
+    top: 0px;
+    left: 14px;
+}
+.inp5{
+    margin: 0px 0px;
+    position: relative;
+    top: -83px;
+    left: 470px;
+}
+.date{
+    margin: 0px 0px;
+    position: relative;
+    top: -70px;
+    left: 478px;
+}
+.btn{
+    margin: -30px 0px;
+    position: relative;
+    top: -24px;
+    left: 370px;
+
+}
+#btn{
+    background: #197cfb;
+    border: 1px solid black;
+    border-radius: 5px;
+}

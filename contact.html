@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(contactb.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            font-family: system-ui;
+        }
+
+        header {
+            background-color: transparent;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 25px;
+            color: rgb(1 44 253);
+            animation: header 2s ease-in-out;
+        }
+
+        @keyframes header {
+            0% {
+                transform: translateY(-100%)
+            }
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 10px 20px;
+            font-weight: 600;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(1 44 253);
+        }
+
+        a:hover {
+            color: rgb(255, 80, 156);
+        }
+       
+       
+.form {
+    display: flex;
+    width: 300px;
+    height: 350px;
+    margin: -68px 39px;
+    background-color:transparent;
+    border: 2px solid rgba(223, 232, 90, 0.413);
+    background-size: cover;
+    border-width: 10px;
+    border-style: outset;
+    border-radius: 18px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 208px;
+    left: 590px;
+    padding-bottom: 1px;
+    padding-left: 36px;
+    padding-right: 10px;
+    padding-top: 6px;
+
+
+
+
+}
+
+#name {
+
+    background: white;
+    border-color: rgb(0, 0, 0,.2);
+    border-radius: 4px;
+    padding: 15px 50px;
+    font-weight: 500;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+#name:hover {
+    background-color: rgb(244, 132, 180);
+        }
+       
+       
+#number {
+    background: white;
+    border-color: rgb(0, 0, 0,.2);
+    border-radius: 4px;
+    padding: 15px 50px;
+    margin-bottom: 5%;
+}
+#number:hover {background-color: rgb(244, 132, 180);
+        }
+       
+       
+#email {
+    background: white;
+    border-color: rgb(0, 0, 0,.2);
+    border-radius: 4px;
+    padding: 15px 50px;
+    margin-bottom: 5%;
+}
+#email:hover {
+            background-color: rgb(244, 132, 180);
+        }
+       
+       
+#btn {
+
+background: #006efbb3;
+color: white;
+
+border: 0 none;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+
+
+cursor: pointer;
+
+padding: 5px 15px;
+position: absolute;
+left: 38px;
+top: 299px;
+}
+#btn:hover {background-color: rgb(244, 132, 132);
+        }
+       
+
+    </style>
+</head>
+
+<body>
+    <div class="a1">
+        <header>
+            <nav>
+                <li> <a href="index.html">Home</a> </li>
+                <li><a href="about.html">About</a></li>
+            </nav>
+        </header>
+    </div>
+
+    
+    <img src="contact3.png" alt="" height="450px" width="550px">
+    <div class="form">
+        <form >
+            <div class="name">
+                <input type="text" id="name" placeholder="ENTER YOUR NAME">
+
+            </div>
+
+            <div class="number">
+                <input type="number" id="number" placeholder="MOBLIE NUMBER">
+
+            </div>
+
+            <div class="email">
+                <input type="email" id="email" placeholder=" EMAIL ID">
+
+            </div>
+
+            <button id="btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>

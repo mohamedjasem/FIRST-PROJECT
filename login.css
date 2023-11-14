@@ -1,0 +1,423 @@
+body {
+    background-image: url(newindexback.jpg);
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    color: white;
+animation: header 2s ease-in-out;
+}
+@keyframes header {
+    0%{
+        transform:translateY(-100%)
+   }}
+
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600;
+    color: rgb(16, 54, 245);
+}
+nav :hover{
+    color: rgb(250, 80, 105);
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: rgb(16, 54, 245);
+}
+a:hover{
+    background-color: coral;
+}
+
+.form1 {
+    width: 500px;
+    height: 534px;
+    border: 4px solid rgb(231 172 172 / 99%);
+    background-color: rgb(254 254 254 / 74%);
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px;
+    margin: 0px 0px;
+    position: relative;
+    top: 65px;
+    bottom: 0px;
+    left: 378px;
+    right: 0px;
+}
+
+h1 {
+    color: #000;
+    margin: 98px 271px;
+
+
+}
+
+.UserName1>input:focus{
+    background-color:rgba(238, 191, 213, 0.993);
+    border-color: rgb(91, 91, 194);
+    color: white;}
+    
+.password1>input:focus{
+    background-color:rgba(238, 191, 213, 0.993);
+    border-color: rgb(91, 91, 194);
+    color: white;
+}
+.remainder1>input:focus{
+    background-color:rgba(238, 191, 213, 0.993);
+    color:white;
+
+}
+.fa-user {
+    border-color: rgb(251 25 25 / 90%);
+    border-radius: 4px;
+    padding-top: 22px;
+    padding-bottom: 18px;
+    padding-right: 19px;
+    padding-left: 24px;
+    margin: 0px 0px;
+    background: white;
+    color: lightgray;
+    min-width: 11px;
+    height: 15px;
+    text-align: center;
+    box-shadow: 0px;
+    position: relative;
+    top: 0px;
+}
+
+.fa-key {
+    border-color: rgb(251 25 25 / 90%);
+    border-radius: 4px;
+    padding-top: 22px;
+    padding-bottom: 18px;
+    padding-right: 19px;
+    padding-left: 22px;
+    margin: 0px 0px;
+    background: white;
+    color: lightgray;
+    min-width: 11px;
+    height: 15px;
+    text-align: center;
+    box-shadow: 0px;
+}
+
+.UserName1 {
+    display: flexbox;
+    display: flex;
+    width: 65%;
+    margin-bottom: 85px;
+    padding-right: 15px;
+    border: 2px solid rgb(0, 0, 0, .1);
+    border-radius: 5px;
+    position: relative;
+    top: 70px;
+    bottom: 0px;
+    left: 87px;
+    padding: 0px;
+}
+
+.password1 {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    width: 65%;
+    border: 2px solid rgb(0, 0, 0, .1);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin: 0px 87px;
+}
+
+#nameid {
+    width: 250px;
+    height: 50px;
+    border-radius: 0px;
+    border-color: rgb(0, 0, 0, .1);
+    padding-top: 0px;
+    padding-bottom: 3px;
+    padding-right: 19px;
+    padding-left: 22px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#passwordid {
+    width: 250px;
+    height: 50px;
+    border-color: rgb(0, 0, 0, .1);
+    border-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    padding-right: 19px;
+    padding-left: 22px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+
+.button {
+    margin: -67px 282px;
+}
+
+
+#btn1 {
+    width: 127px;
+    height: 50px;
+    background-color: #0089ffc7;
+    border-color: rgb(0, 0, 0, .1);
+    border-radius: 7px;
+    padding: 2px;
+    color: white;
+}
+
+.remainder1 {
+
+    margin: 32px 81px;
+    display: inline-flex;
+
+
+}
+
+#remainder {
+    background-color: #0089ffc7;
+    border-color: rgb(0, 0, 0, .1);
+    border-radius: 7px;
+    padding: 2px;
+    color: white;
+}
+
+#p {
+    margin: 81px 82px;
+}
+
+.btn2 {
+    position: relative;
+    top: 42px;
+    bottom: 0px;
+    right: 0px;
+    left: 85px;
+}
+
+.fa-google {
+    display: inline-flex;
+    border-color: rgb(0, 0, 0, .3);
+    border-radius: 4px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px 0px;
+    background: rgb(235, 52, 7);
+    color: white;
+    width: 20px;
+    height: 8px;
+    text-align: center;
+    position: relative;
+    top: 9px;
+    bottom: 0px;
+    right: 0px;
+    left: -1px;
+    box-shadow: 0px;
+}
+
+#google {
+    width: 269px;
+    display: inline-flex;
+    border-color: rgb(0, 0, 0, .3);
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 74px;
+    padding-right: 2px;
+    padding-bottom: 27px;
+    margin: 0px 0px;
+    background: rgb(230, 103, 71);
+    color: white;
+    height: 11px;
+    text-align: center;
+    position: relative;
+    top: 4px;
+    bottom: 0px;
+    right: 0px;
+    left: -8px;
+    box-shadow: 0px;
+}
+
+.btn3 {
+    
+    position: relative;
+    top: -54px;
+    bottom: 0px;
+    right: 0px;
+    left: 85px;
+}
+
+.fa-facebook-official {
+    display: inline-flex;
+    border-color: rgb(0, 0, 0, .3);
+    border-radius: 4px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px 0px;
+    color: white;
+    background: rgb(68, 7, 235);
+    
+    width: 20px;
+    height: 8px;
+    text-align: center;
+    position: relative;
+    top:-3px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    box-shadow: 0px;
+}
+
+#facebook {
+    width: 269px;
+    display: inline-flex;
+    border-color: rgb(0, 0, 0, .3);
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 74px;
+    padding-right: 2px;
+    padding-bottom: 27px;
+    margin: 0px 0px;
+    background: rgb(135, 99, 233);
+    color: white;
+    height: 11px;
+    text-align: center;
+    position: relative;
+    top: -8px;
+    bottom: 0px;
+    right: 0px;
+    left: -7px;
+    box-shadow: 0px;
+}
+
+
+.btn4 {
+
+    position: relative;
+    top: -171px;
+    bottom: 0px;
+    right: 0px;
+    left: 84px;
+}
+
+.fa-instagram {
+    display: inline-flex;
+    border-color: rgb(0, 0, 0, .3);
+    border-radius: 4px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 16px;
+    padding-right: 15px;
+    margin: 0px 0px;
+    background-image: url(instagram.jpg);
+    background-position: center;
+    color: white;
+    width: 20px;
+    height: 8px;
+    text-align: center;
+    position: relative;
+    top: 9px;
+    bottom: 0px;
+    right: 0px;
+    left: 1px;
+    box-shadow: 0px;
+}
+
+#instagram {
+    width: 269px;
+    display: inline-flex;
+    border-color: rgb(231 88 180 / 65%);
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 74px;
+    padding-right: 2px;
+    padding-bottom: 27px;
+    margin: 0px 0px;
+    background-color: #e73fe7;
+    background-size: 100%;
+    color: white;
+    height: 11px;
+    text-align: center;
+    position: relative;
+    top: 4px;
+    bottom: 0px;
+    right: 0px;
+    left: -7px;
+    box-shadow: 0px;
+}
+#register{
+    text-decoration: none;
+    color: blue;
+    position: relative;
+    top: -279px;
+    bottom: 0px;
+    right: 0px;
+    left: 85px;
+    
+}
+#forget{
+    text-decoration: none;
+   
+    color: rgb(68 68 68);
+    position: relative;
+    top: -307px;
+    bottom: 0px;
+    right: 0px;
+    left: 293px;
+}
+
+@media screen and(max-width: 1281px) {
+    .form1{
+        position: relative;
+        top: 65px;
+        bottom: 0px;
+        left: 378px;
+        right: 0px;
+    }
+    .body{
+       background-position: center;
+      
+       overflow: hidden;
+       width: 100%;
+       position: relative;
+       left: 0px;
+    }
+}
+@media screen and(max-width: 567px) {
+    .form1{
+        position: relative;
+    top: 65px;
+    bottom: 0px;
+    left: 278px;
+    right: 0px;
+    }
+    .body{
+       background-position: center;
+      
+       overflow: hidden;
+       width: 100%;
+       position: relative;
+       left: 0px;
+    }
+
+    
+}
